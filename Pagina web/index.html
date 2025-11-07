@@ -1,0 +1,177 @@
+
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Real de Cuervos</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+<link crossorigin="anonymous" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" referrerpolicy="no-referrer" rel="stylesheet"/>
+<script>tailwind.config = {darkMode: "class", theme: {extend: {colors: {primary: "#f27005", "background-light": "#f8f7f5", "background-dark": "#23180f"}, fontFamily: {display: "Space Grotesk"}, borderRadius: {DEFAULT: "0.25rem", lg: "0.5rem", xl: "0.75rem", full: "9999px"}}}};</script>
+<style>
+   @font-face {
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    src: url(streets.ttf);
+   }
+    
+        .material-symbols-outlined {
+            font-variation-settings:
+            'FILL' 0,
+            'wght' 400,
+            'GRAD' 0,
+            'opsz' 24
+        }
+    </style>
+</head>
+<body class="bg-background-dark font-display text-white">
+<div class="relative flex h-auto min-h-screen w-full flex-col overflow-x-hidden">
+<div class="layout-container flex h-full grow flex-col">
+<header class="bg-background-dark/80 sticky top-0 z-50 w-full border-b border-white/10 backdrop-blur-sm">
+<div class="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
+<div class="flex items-center gap-6">
+
+<a class="flex items-center gap-3" href="#">
+
+<div class="size-8 text-primary">
+<svg fill="none" viewbox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+</svg>
+</div>
+<img src="RealCuervosLogo-remove.png" width="90" >
+<h1 class="text-xl font-bold text-white">Real de cuervos</h1>
+</a>
+<nav class="hidden items-center gap-6 md:flex">
+<a class="text-sm font-medium text-white/80 transition-colors hover:text-white" href="#">Inicio</a>
+<a class="text-sm font-medium text-white/80 transition-colors hover:text-white" href="carrito.html">Coleccion de cartas</a>
+<a class="text-sm font-medium text-white/80 transition-colors hover:text-white" href="Tienda.html">Tienda</a>
+</nav>
+</div>
+<div class="flex items-center gap-4">
+<a class="text-white/80 transition-colors hover:text-white" href="#">
+<i class="fa-solid fa-cart-shopping text-lg"></i>
+</a>
+<button class="flex h-10 w-10 cursor-pointer items-center justify-center overflow-hidden rounded-full bg-white/10 text-white/80 hover:bg-white/20 hover:text-white md:hidden">
+<span class="material-symbols-outlined">menu</span>
+</button>
+</div>
+</div>
+</header>
+<div class="mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8">
+<div class="layout-content-container flex flex-1 flex-col">
+<main class="flex-1">
+<div class="py-10 sm:py-20">
+<div class="@container">
+<div class="@[480px]:p-4">
+<div class="flex min-h-[480px] flex-col items-center justify-center gap-6 rounded-lg bg-cover bg-center bg-no-repeat p-4 @[480px]:gap-8 @[480px]:rounded-xl" data-alt="A street basketball court at dusk with graffiti on the walls" style='background-image: linear-gradient(rgba(25, 16, 34, 0.4) 0%, rgba(25, 16, 34, 0.8) 100%), url("https://lh3.googleusercontent.com/aida-public/AB6AXuCvdJTdSij4x3vvFZ6YP8SeoQINVXPAgGwF7mB9TuGOujGMLK65J7Upmmg3GxtTxAByhOGEzMZ8lT_WivZY8U7mHuSKRfCy2bzL4jNEMDHSTXoqW6WAce0fH3xvUYYxHRVkdxnku3qyYN5_WzEL7HZhRy2LFtSLAdxUs6F7pyFi4Lkeq8Uq2dF46qZiw4sM3uaIc287eoU4p0u57bsBRduUKc5Pcf9HyRwfi7J270KrB3OkG9SF8JXO5Pj2ar2O3GdG8dVh22-WLtA");'>
+<div class="flex flex-col gap-2 text-center">
+<h1 class="text-white text-5xl font-black leading-tight tracking-[-0.033em] @[500px]:text-7xl"></h1>
+<h2 class="text-white/90 text-sm font-normal leading-normal @[480px]:text-base">Equipo profesional de deportes que participa en ligas regionales, con seguidores
+</h2>
+</div>
+<button class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-10 px-4 bg-primary text-white text-sm font-bold leading-normal tracking-[0.015em] transition-transform hover:scale-105 @[480px]:h-12 @[480px]:px-5 @[480px]:text-base">
+<span class="truncate">!--Bienvenidos--!</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+<div class="flex flex-col gap-10 px-4 py-10 @container sm:px-0">
+<div class="flex flex-col gap-4">
+<h2 class="text-white text-[32px] font-bold leading-tight tracking-[-0.033em] @[480px]:text-4xl">
+                                  Experiencia en el juego 
+                                </h2>
+<p class="text-white/70 text-base font-normal leading-normal max-w-[720px]">Sigue la accion de cerca con actualizaciones en directo, analisis en profundidad y contenido exclusivo.</p>
+</div>
+<div class="grid grid-cols-[repeat(auto-fit,minmax(200px,1fr))] gap-4 p-0">
+<div class="flex flex-1 flex-col gap-3 rounded border border-white/10 bg-white/5 p-4 transition-colors hover:bg-white/10">
+<div class="text-primary"><span class="">Records</span></div>
+<div class="flex flex-col gap-1">
+<h3 class="text-white text-base font-bold leading-tight">Marcadores</h3>
+<p class="text-white/60 text-sm font-normal leading-normal">No te pierdas ni un segundo con las actualizaciones y marcadores del partido en tiempo real.</p>
+</div>
+</div>
+<div class="flex flex-1 flex-col gap-3 rounded border border-white/10 bg-white/5 p-4 transition-colors hover:bg-white/10">
+<div class="text-primary"><span class="">Estadisticas de Consultas</span></div>
+<div class="flex flex-col gap-1">
+<h3 class="text-white text-base font-bold leading-tight">Estadisticas de jugadores</h3>
+<p class="text-white/60 text-sm font-normal leading-normal">Analiza en profundidad el rendimiento de los jugadores con estadisticas completas.</p>
+</div>
+</div>
+<div class="flex flex-1 flex-col gap-3 rounded border border-white/10 bg-white/5 p-4 transition-colors hover:bg-white/10">
+<div class="text-primary"><span class="">Presentacion de diapositivas</span></div>
+<div class="flex flex-col gap-1">
+<h3 class="text-white text-base font-bold leading-tight">Momentos destacados</h3>
+<p class="text-white/60 text-sm font-normal leading-normal">Disfruta de las jugadas mas emocionantes y los momentos que cambiaron el rumbo del partido.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="p-4 py-10 sm:p-0 sm:py-20">
+<div class="relative flex aspect-video items-center justify-center rounded-lg bg-cover bg-center" data-alt="A basketball player mid-dunk against a dark background" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuB2dgA1l-BowamfHtB2XZ6s9VTkehI6ZHw_Bffytne76GxcW575i0uHs6qCPO6kNmUPPyovNeCIobYfL1izPHccrjUGTtLqrqYbU7Fqs_CNfybGPlnNsRywYexfAcJ6OxVtgT0CXmZWuk88TdC5k07dK-AjBcPTUCqQoTM9e6q5H2nPquESbYtiZ1Q1e9bUVzd3oLPf80dRDut7qBYDW8EGW9_RcWyAH4Bcj0LFsn94cim7XVDVmi_ESt52D_7VNpNzwyQ76YRkRKY");'>
+<div class="absolute inset-0 bg-black/30 rounded-lg"></div>
+<button class="relative flex h-16 w-16 shrink-0 items-center justify-center rounded-full bg-black/50 text-white backdrop-blur-sm transition-transform hover:scale-110">
+<span class="material-symbols-outlined !text-4xl" style="font-variation-settings: 'FILL' 1;">play_arrow</span>
+</button>
+<div class="absolute inset-x-0 bottom-0 px-4 py-3">
+<div class="flex h-4 items-center justify-center">
+<div class="h-1 flex-1 rounded-full bg-white"></div>
+<div class="relative"><div class="absolute -left-2 -top-2 size-4 rounded-full bg-white ring-4 ring-black/30"></div></div>
+<div class="h-1 flex-1 rounded-full bg-white/40"></div>
+</div>
+<div class="flex items-center justify-between">
+<p class="text-white text-xs font-medium leading-normal tracking-[0.015em]">0:37</p>
+<p class="text-white text-xs font-medium leading-normal tracking-[0.015em]">2:23</p>
+</div>
+</div>
+</div>
+</div>
+
+<footer class="mt-20 border-t border-white/10">
+<div class="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
+<div class="grid grid-cols-2 gap-8 md:grid-cols-4">
+<div class="col-span-2 md:col-span-1">
+<div class="flex items-center gap-3">
+<div class="size-6 text-primary">
+</div>
+<img src="RealCuervosLogo-remove.png" width="45" >
+<h2 class="text-white text-lg font-bold">Real de cuervos</h2>
+</div>
+<p class="mt-4 text-sm text-white/60"></p>
+</div>
+<div>
+<h3 class="font-bold uppercase tracking-wider text-white">Navegador</h3>
+<ul class="mt-4 space-y-2">
+<li><a class="text-sm text-white/60 hover:text-white" href="#">Inicio</a></li>
+<li><a class="text-sm text-white/60 hover:text-white" href="carrito.html">Coleccion de cartas</a></li>
+<li><a class="text-sm text-white/60 hover:text-white" href="Tienda.html">Tienda</a></li>
+</ul>
+</div>
+<div>
+<h3 class="font-bold uppercase tracking-wider text-white">Legal</h3>
+<ul class="mt-4 space-y-2">
+<li><a class="text-sm text-white/60 hover:text-white" href="#">Privacy Policy</a></li>
+<li><a class="text-sm text-white/60 hover:text-white" href="#">Terminos de privacidad</a></li>
+<li><a class="text-sm text-white/60 hover:text-white" href="#">Contactanos al: 664 740 9825</a></li>
+</ul>
+</div>
+<div>
+<h3 class="font-bold uppercase tracking-wider text-white">Siguenos en</h3>
+<div class="mt-4 flex gap-4">
+<a class="text-white/60 hover:text-white" href="https://www.instagram.com/real_cuervos2.1?igsh=MWszMXNrMzlhdXJpcA%3D%3D&utm_source=qr"><span class="material-symbols-outlined">photo_camera</span></a>
+
+</div>
+</div>
+</div>
+<div class="mt-12 border-t border-white/10 pt-8">
+<p class="text-center text-sm text-white/50">© 2025 Real de Cuervos. All rights reserved.</p>
+</div>
+</div>
+</footer>
+</div>
+</div>
+</div>
+</div>
+</body></html>

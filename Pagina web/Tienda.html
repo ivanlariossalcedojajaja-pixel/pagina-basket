@@ -1,0 +1,213 @@
+
+<!DOCTYPE html>
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Urban Hoops - Own The Court</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@400;500;700;900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+<link crossorigin="anonymous" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" referrerpolicy="no-referrer" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#f98c1f",
+                        "background-light": "#f8f7f5",
+                        "background-dark": "#1A1A1A",
+                        "secondary-dark": "#2C2C2C",
+                        "accent-purple": "#9400FF",
+                        "text-light": "#E0E0E0",
+                        "border-dark": "#3a3027"
+                    },
+                    fontFamily: {
+                        "display": ["Lexend", "sans-serif"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "1rem",
+                        "lg": "2rem",
+                        "xl": "3rem",
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+</head>
+<body class="font-display">
+<div class="relative flex h-auto min-h-screen w-full flex-col bg-background-light dark:bg-background-dark group/design-root overflow-x-hidden">
+<div class="layout-container flex h-full grow flex-col">
+<header class="sticky top-0 z-50 w-full bg-background-dark text-text-light px-4 md:px-10 lg:px-40">
+<div class="flex items-center justify-between py-3">
+<div class="flex items-center gap-4">
+<div class="size-6 text-primary">
+<svg fill="currentColor" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+</svg>
+</div>
+<img src="RealCuervosLogo-remove.png" width="90" >
+<h2 class="text-text-light text-lg font-bold leading-tight tracking-[-0.015em] whitespace-nowrap">Real de cuervos</h2>
+</div>
+<nav class="hidden md:flex items-center gap-8">
+<a class="text-text-light text-sm font-medium leading-normal hover:text-primary" href="index.html">Inicio</a>
+<a class="text-text-light text-sm font-medium leading-normal hover:text-primary" href="carrito.html">Coleccion de cartas</a>
+<a class="text-text-light text-sm font-medium leading-normal hover:text-primary" href="dashboard.html">Dashboard</a>
+</nav>
+<div class="flex items-center gap-4">
+<a class="relative text-text-light hover:text-primary" href="#">
+<i class="fa-solid fa-shopping-cart text-xl"></i>
+</a>
+<button class="md:hidden flex items-center justify-center size-10 rounded-full bg-secondary-dark">
+<span class="material-symbols-outlined text-text-light text-2xl">menu</span>
+</button>
+</div>
+</div>
+</header>
+<div class="px-4 md:px-10 lg:px-40 flex flex-1 justify-center py-5">
+<div class="layout-content-container flex flex-col max-w-[960px] flex-1">
+<main class="flex flex-col gap-4">
+<div class="@container">
+<div class="@[480px]:p-4">
+<div class="flex min-h-[480px] flex-col gap-6 bg-cover bg-center bg-no-repeat @[480px]:gap-8 @[480px]:rounded-xl items-center justify-center p-4" data-alt="A basketball on a dark, gritty urban court at night" style='background-image: linear-gradient(rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.7) 100%), url("https://lh3.googleusercontent.com/aida-public/AB6AXuAdyb02734yLQl1qzxPTvLPehSvoULjzZIZYRFLfIEGmusgmt9a73BT_I9G5t4OUJMtEXGtwTTqTJSjS1QE1NB3vVj598c9jpMRoAnqiq-uCm7zWr9xn0zdFBz4sjtL45hCi0ZAuCIvhoXZZELmiPQzHR600UfqfyPZRrk1YiYb4NVCV_wYFVBlywe0Tm-ZzIQ4hEpEcmmpSaB8gZOSv_Wdn7e8y3sp9b4FgD7CK8-22ZpaTEZke2uFIYT0AHgbL4z5YD79HxlXcjE");'>
+<div class="flex flex-col gap-2 text-center">
+<h1 class="text-white text-4xl font-black leading-tight tracking-[-0.033em] @[480px]:text-5xl @[480px]:font-black @[480px]:leading-tight @[480px]:tracking-[-0.033em]">Mandar en la cancha</h1>
+<h2 class="text-text-light text-sm font-normal leading-normal @[480px]:text-base @[480px]:font-normal @[480px]:leading-normal"> Domina el juego con nuestra coleccion premium de balones de baloncesto.</h2>
+</div>
+<button class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-10 px-4 @[480px]:h-12 @[480px]:px-5 bg-primary text-background-dark text-sm font-bold leading-normal tracking-[0.015em] @[480px]:text-base @[480px]:font-bold @[480px]:leading-normal @[480px]:tracking-[0.015em] hover:brightness-110 transition-all">
+<span class="truncate">Comprar ahora</span>
+</button>
+</div>
+</div>
+</div>
+<div class="flex gap-3 p-3 overflow-x-auto">
+</div>
+<div class="grid grid-cols-[repeat(auto-fit,minmax(158px,1fr))] gap-4 p-4">
+<div class="flex flex-col gap-3 rounded-xl bg-secondary-dark p-4 transition-transform duration-300 hover:-translate-y-2 hover:shadow-lg hover:shadow-accent-purple/20">
+<div class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-lg" data-alt="Spalding TF-1000 Legacy basketball" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDmGi8PxLQuiOPJ3FStNz-Ck9SdRhZwRx_DYkl7Xph_oSbDwkAAfwwJMl0nFhYgtlM500pwnimHPj8kBpH59H3V9VH5-bLov5g2WkE9mKCjPxGnaYtYF4i_SBNmzETethDyKUJngNjzIbHOyMp15ke2yTFVF8aYHfO-c-5mQl5GQADUbscmgT_S7Wy-rS9ZL-Y-DxsWEDdW-cvlEs-CUNmoahGOFOoWySemXePqng5bWyTHRCiEz5C1M_w6nvf5aaoyhA4b1T10JGM");'></div>
+<div class="flex flex-col gap-2">
+<p class="text-text-light text-base font-medium leading-normal">Spalding TF-1000 Legacy</p>
+<p class="text-accent-purple text-lg font-bold leading-normal">$74.99</p>
+<button class="w-full mt-2 flex h-10 items-center justify-center rounded-full bg-primary text-background-dark text-sm font-bold uppercase tracking-wider hover:brightness-110">Add to Cart</button>
+</div>
+</div>
+<div class="flex flex-col gap-3 rounded-xl bg-secondary-dark p-4 transition-transform duration-300 hover:-translate-y-2 hover:shadow-lg hover:shadow-accent-purple/20">
+<div class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-lg" data-alt="Wilson Evolution basketball" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuC47DrxhOrcE63aWk6_8iDXf3EkoRUvWzU0-CXGHofHitKAOHdyXNqcL5ATztWqXybCH8DBbF2p3cE091DOSBkPxYHOdoVJzKVoF367n9DxHtK1k05lnBoKIPb4EBr7IVoBlsWaIBLwMSupvugQhtEtKEDBtxAT2LtL1DQ-lCebU1tANajpZpmR52kYdenURUJoq-D_QT6gQ56PIE1mYcQURr0kTrvkZGnWWXZnTYJolZ2r9kVM0lLP7bhLWKfVIQ7JSFkh5166ZKw");'></div>
+<div class="flex flex-col gap-2">
+<p class="text-text-light text-base font-medium leading-normal">Wilson Evolution</p>
+<p class="text-accent-purple text-lg font-bold leading-normal">$69.95</p>
+<button class="w-full mt-2 flex h-10 items-center justify-center rounded-full bg-primary text-background-dark text-sm font-bold uppercase tracking-wider hover:brightness-110">Add to Cart</button>
+</div>
+</div>
+<div class="flex flex-col gap-3 rounded-xl bg-secondary-dark p-4 transition-transform duration-300 hover:-translate-y-2 hover:shadow-lg hover:shadow-accent-purple/20">
+<div class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-lg" data-alt="Street Phantom Elite basketball" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAImv0xASYkWhiLCQUO_VVVpSG8eMLdxBPWwb2iKfbAPbDrSThiXinYR8goV24ZRtHcIk-uQfhyDxi5L0c3KNdq54wnBK-uHcQgxAUsK0ClRYl4fQMH54cH1nBiA0be9kBPIMt6eYlcEN1Wc131Z_CiapP93FR4XJ0ftfAgNj1W4ILWc5V7rAVQEA3o1UAU91u-0jgqbF8qJ4B0W7La7ua2c2u9DQuBQ64oOpN5Co2Kqbklcm1yMrVerQV2ItHpPu8Cd8gRFC4LupY");'></div>
+<div class="flex flex-col gap-2">
+<p class="text-text-light text-base font-medium leading-normal">Street Phantom Elite</p>
+<p class="text-accent-purple text-lg font-bold leading-normal">$55.00</p>
+<button class="w-full mt-2 flex h-10 items-center justify-center rounded-full bg-primary text-background-dark text-sm font-bold uppercase tracking-wider hover:brightness-110">Add to Cart</button>
+</div>
+</div>
+<div class="flex flex-col gap-3 rounded-xl bg-secondary-dark p-4 transition-transform duration-300 hover:-translate-y-2 hover:shadow-lg hover:shadow-accent-purple/20">
+<div class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-lg" data-alt="Nike Versa Tack 8P basketball" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDh1lCoIMMS8b4ECQ_hghmn0gplfPqw2tVOI9uNxwkW6hSnKCB5xL6no2_FCYismoUwjnWJ7O2uml1MXqfWkZcDUk4Nzm-BvlalVRbCWIXZ4WNBNUexso45Abw3_pe5H6mlJlQcWNCNMb6OVxDwkZgHwaaVqSQRzwfWJT9B1LrfvDFH_g6TCQdU8FaeCYUsGvzE2Q3yCgju1tPuioJ9D2EKymcMnr0zdTsCSX4LzDF6XQgE70cQptNQgy8HmI0TJijC2yVySWK3EkE");'></div>
+<div class="flex flex-col gap-2">
+<p class="text-text-light text-base font-medium leading-normal">Nike Versa Tack 8P</p>
+<p class="text-accent-purple text-lg font-bold leading-normal">$49.99</p>
+<button class="w-full mt-2 flex h-10 items-center justify-center rounded-full bg-primary text-background-dark text-sm font-bold uppercase tracking-wider hover:brightness-110">Add to Cart</button>
+</div>
+</div>
+<div class="flex flex-col gap-3 rounded-xl bg-secondary-dark p-4 transition-transform duration-300 hover:-translate-y-2 hover:shadow-lg hover:shadow-accent-purple/20">
+<div class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-lg" data-alt="Molten BG5000 basketball" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBEMvNOxJSRvP-icz9ys2CGsaTaWc9GLN3th22vD1LkmMNRjI6vgw4WtuY-LeNfCTU6iQb7Z5Jh_CxG1WDmbfmGbSetU3YTi9tcFbZtk_g10zVx2TWz67mcVk4piTKDQ71LrA6nYI5YChCR-AGyXSgXRQ96k2KRAGHityb3jscF83SHJcAVIUcnqHx5LzawrMM7k7z6Mq9V_Bp69ckKj7jh9nOzhdPUwwsELK3LDPH1AK_4rB9uSOqcHNg1iZX49lqhav-QVkHnETg");'></div>
+<div class="flex flex-col gap-2">
+<p class="text-text-light text-base font-medium leading-normal">Molten BG5000</p>
+<p class="text-accent-purple text-lg font-bold leading-normal">$125.00</p>
+<button class="w-full mt-2 flex h-10 items-center justify-center rounded-full bg-primary text-background-dark text-sm font-bold uppercase tracking-wider hover:brightness-110">Add to Cart</button>
+</div>
+</div>
+<div class="flex flex-col gap-3 rounded-xl bg-secondary-dark p-4 transition-transform duration-300 hover:-translate-y-2 hover:shadow-lg hover:shadow-accent-purple/20">
+<div class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-lg" data-alt="Under Armour 495 basketball" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDO0B34EibruXYBGREgpwBKWkjVeWwUOp7aDxS47hmFRdoV4aCO-fJPKunEpJpEK6bXerBArdyhPZ5YG2fI3FMO-uVfK-737gHrEuaIr4sBRRjCarkK1YZ4czPnFWtKr5OPZEjA5JNbJ5-gb3XcftWCE1tR0yN3itfodnN0e8Ti9yseVX3AMkVk6TIC477DzCyHTtg4_uRmy0FgxKySkyzUbWb0TERUfaI3CoY0H7qnR6d_Thn-kul3MpDauYMTpAkYnsTHF_bNJFY");'></div>
+<div class="flex flex-col gap-2">
+<p class="text-text-light text-base font-medium leading-normal">Under Armour 495</p>
+<p class="text-accent-purple text-lg font-bold leading-normal">$34.99</p>
+<button class="w-full mt-2 flex h-10 items-center justify-center rounded-full bg-primary text-background-dark text-sm font-bold uppercase tracking-wider hover:brightness-110">Add to Cart</button>
+</div>
+</div>
+<div class="flex flex-col gap-3 rounded-xl bg-secondary-dark p-4 transition-transform duration-300 hover:-translate-y-2 hover:shadow-lg hover:shadow-accent-purple/20">
+<div class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-lg" data-alt="Adidas Pro Official basketball" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCuY5jfOzzAxv2fmP2XugYo_cgG6BzrL7ogxuI9ZDyFkFhEy8yn546x74KdNCmKZos1noGttNMjeb8a8uYuA_QSYmBnjWXMi4SrgQ3SC0e2XoGcX7mFdJGVOb1eZOVt4sUuV55JLx9ldXq-XM1aAg9j4qqdm0XSUrSf6L8zuYotsC9gdIwUo4BQpSbOQKdH_LXdT5Xd_37XGhbaUijL97iAAIm_0jkZ38rE66KU5EMqHfrVOBgc908APD5SxIr7JUALbam24mA-9nY");'></div>
+<div class="flex flex-col gap-2">
+<p class="text-text-light text-base font-medium leading-normal">Adidas Pro Official</p>
+<p class="text-accent-purple text-lg font-bold leading-normal">$80.00</p>
+<button class="w-full mt-2 flex h-10 items-center justify-center rounded-full bg-primary text-background-dark text-sm font-bold uppercase tracking-wider hover:brightness-110">Add to Cart</button>
+</div>
+</div>
+<div class="flex flex-col gap-3 rounded-xl bg-secondary-dark p-4 transition-transform duration-300 hover:-translate-y-2 hover:shadow-lg hover:shadow-accent-purple/20">
+<div class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-lg" data-alt="Puma Court Rider basketball" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuC4N4PQVLgfzOb-tZkG65Dswjcw0BqU1-GXHfOZJFl1LPQe7nsHybywrV98NTkuFltHvWZQDyjdv-4p3R1OPkWa6CKets5KAFZToa3OR7nhQlpavO31CiziAsjI3UWja5pHAauxYokcc1OCXq2WqoqIWXUM7vCQZMDaGKuNUO6lNUQZcZFzAOEp8upgMIFWoL7PoBIUDQ-2ErnkjD_Xe7Hzt7oQrxMRS9w0M3DBuDSMdEFdGDoW4CMZHvHiBMuIF2Vd5GhbbiA29MM");'></div>
+<div class="flex flex-col gap-2">
+<p class="text-text-light text-base font-medium leading-normal">Puma Court Rider</p>
+<p class="text-accent-purple text-lg font-bold leading-normal">$50.00</p>
+<button class="w-full mt-2 flex h-10 items-center justify-center rounded-full bg-primary text-background-dark text-sm font-bold uppercase tracking-wider hover:brightness-110">Add to Cart</button>
+</div>
+</div>
+</div>
+<div class="flex items-center justify-center p-4">
+<a class="flex size-10 items-center justify-center text-text-light/70 hover:text-primary" href="#">
+<span class="material-symbols-outlined text-xl">chevron_left</span>
+</a>
+
+<span class="text-sm font-normal leading-normal flex size-10 items-center justify-center text-text-light/70 rounded-full" href="#">...</span>
+<a class="flex size-10 items-center justify-center text-text-light/70 hover:text-primary" href="#">
+<span class="material-symbols-outlined text-xl">chevron_right</span>
+</a>
+</div>
+</main>
+<footer class="mt-10 border-t border-solid border-border-dark py-8 px-4">
+<div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center md:text-left">
+<div>
+<h3 class="font-bold text-text-light mb-4">About Us</h3>
+<ul class="space-y-2">
+<li><a class="text-text-light/70 hover:text-primary" href="#">Our Story</a></li>
+<li><a class="text-text-light/70 hover:text-primary" href="#">Careers</a></li>
+<li><a class="text-text-light/70 hover:text-primary" href="#">Press</a></li>
+</ul>
+</div>
+<div>
+<h3 class="font-bold text-text-light mb-4">Customer Support</h3>
+<ul class="space-y-2">
+<li><a class="text-text-light/70 hover:text-primary" href="#">Contactanos</a></li>
+<li><a class="text-text-light/70 hover:text-primary" href="#">664 740 9825</a></li>
+</ul>
+</div>
+<div>
+<h3 class="font-bold text-text-light mb-4">Legal</h3>
+<ul class="space-y-2">
+<li><a class="text-text-light/70 hover:text-primary" href="#">Termino y Servicios</a></li>
+<li><a class="text-text-light/70 hover:text-primary" href="#">Politica de privacidad</a></li>
+</ul>
+</div>
+<div>
+<h3 class="font-bold text-text-light mb-4">Siguenos en: </h3>
+<div class="flex justify-center md:justify-start space-x-4">
+<a class="text-text-light/70 hover:text-primary" href="#">
+<svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+<path d="M22.46,6C21.69,6.35 20.86,6.58 20,6.69C20.88,6.16 21.56,5.32 21.88,4.31C21.05,4.81 20.13,5.16 19.16,5.36C18.37,4.5 17.26,4 16,4C13.65,4 11.73,5.92 11.73,8.29C11.73,8.63 11.77,8.96 11.84,9.27C8.28,9.09 5.11,7.38 2.9,4.79C2.53,5.42 2.33,6.16 2.33,6.94C2.33,8.43 3.11,9.75 4.33,10.5C3.62,10.48 2.96,10.29 2.38,10V10.03C2.38,12.11 3.86,13.85 5.82,14.24C5.46,14.34 5.08,14.39 4.69,14.39C4.42,14.39 4.15,14.36 3.89,14.31C4.43,16 6,17.26 7.89,17.29C6.43,18.45 4.58,19.13 2.56,19.13C2.22,19.13 1.88,19.11 1.54,19.07C3.44,20.29 5.7,21 8.12,21C16,21 20.33,14.46 20.33,8.79C20.33,8.6 20.33,8.42 20.32,8.23C21.16,7.63 21.88,6.87 22.46,6Z"></path>
+</svg>
+</a>
+<a class="text-text-light/70 hover:text-primary" href="https://www.instagram.com/real_cuervos2.1?igsh=MWszMXNrMzlhdXJpcA%3D%3D&utm_source=qr">
+<svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+<path d="M12,2.163C10.07,2.163 9.782,2.175 9.013,2.211C8.245,2.247 7.611,2.39 7.07,2.607C6.529,2.825 6.018,3.12 5.57,3.568C5.12,4.017 4.826,4.529 4.608,5.07C4.39,5.611 4.247,6.245 4.21,7.013C4.175,7.782 4.163,8.07 4.163,10C4.163,11.93 4.175,12.218 4.21,12.987C4.247,13.755 4.39,14.389 4.608,14.93C4.826,15.471 5.12,15.982 5.57,16.43C6.018,16.879 6.529,17.173 7.07,17.39C7.611,17.608 8.245,17.752 9.013,17.788C9.782,17.824 10.07,17.836 12,17.836C13.93,17.836 14.218,17.824 14.987,17.788C15.755,17.752 16.389,17.608 16.93,17.39C17.471,17.173 17.982,16.879 18.43,16.43C18.879,15.982 19.173,15.471 19.39,14.93C19.608,14.389 19.752,13.755 19.788,12.987C19.824,12.218 19.836,11.93 19.836,10C19.836,8.07 19.824,7.782 19.788,7.013C19.752,6.245 19.608,5.611 19.39,5.07C19.173,4.529 18.879,4.017 18.43,3.568C17.982,3.12 17.471,2.825 16.93,2.607C16.389,2.39 15.755,2.247 14.987,2.211C14.218,2.175 13.93,2.163 12,2.163M12,0C13.973,0 14.281,0.009 15.053,0.045C15.825,0.082 16.539,0.222 17.202,0.485C17.872,0.75 18.471,1.107 19.031,1.668C19.592,2.228 19.95,2.827 20.213,3.497C20.476,4.16 20.616,4.874 20.653,5.646C20.689,6.418 20.698,6.726 20.698,8.699C20.698,10.672 20.689,10.98 20.653,11.752C20.616,12.524 20.476,13.238 20.213,13.901C19.95,14.571 19.592,15.17 19.031,15.73C18.471,16.291 17.872,16.648 17.202,16.911C16.539,17.174 15.825,17.314 15.053,17.35C14.281,17.386 13.973,17.395 12,17.395C10.027,17.395 9.719,17.386 8.947,17.35C8.175,17.314 7.461,17.174 6.798,16.911C6.128,16.648 5.529,16.291 4.969,15.73C4.408,15.17 4.05,14.571 3.787,13.901C3.524,13.238 3.384,12.524 3.347,11.752C3.311,10.98 3.302,10.672 3.302,8.699C3.302,6.726 3.311,6.418 3.347,5.646C3.384,4.874 3.524,4.16 3.787,3.497C4.05,2.827 4.408,2.228 4.969,1.668C5.529,1.107 6.128,0.75 6.798,0.485C7.461,0.222 8.175,0.082 8.947,0.045C9.719,0.009 10.027,0 12,0M12,4.865C9.698,4.865 7.83,6.733 7.83,9.035C7.83,11.337 9.698,13.205 12,13.205C14.302,13.205 16.17,11.337 16.17,9.035C16.17,6.733 14.302,4.865 12,4.865M12,11.535C10.603,11.535 9.47,10.402 9.47,9.035C9.47,7.668 10.603,6.535 12,6.535C13.397,6.535 14.53,7.668 14.53,9.035C14.53,10.402 13.397,11.535 12,11.535M16.4,4.249C15.761,4.249 15.229,4.781 15.229,5.42C15.229,6.059 15.761,6.591 16.4,6.591C17.039,6.591 17.571,6.059 17.571,5.42C17.571,4.781 17.039,4.249 16.4,4.249"></path>
+</svg>
+</a>
+</div>
+</div>
+</div>
+<div class="text-center text-text-light/50 text-sm mt-8">
+                            © 2025 Real de Cuervos. All Rights Reserved.
+                        </div>
+</footer>
+</div>
+</div>
+</div>
+</div>
+
+</body></html>
